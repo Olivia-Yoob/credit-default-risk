@@ -1,0 +1,21 @@
+# --- Data (regenerable from Kaggle; too large for git) ---
+data/
+*.zip
+*.csv
+
+# --- Trained models / processed artifacts ---
+models/
+data/processed/
+
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Build scripts (temporary notebook generators) ---
+_build_*.py
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
